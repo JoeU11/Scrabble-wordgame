@@ -253,5 +253,11 @@ print("All done!")
 # playHand({'n': 1, 'e': 1, 't': 1, 'a': 1, 'r': 1, 'i': 2}, wordList, 7)
 
 # test 4
+# wordList = loadWords()
+# playHand({'n': 1, 'e': 1, 't': 1, 'a': 1, 'r': 1}, wordList, 5)
+
+# Testing PlayGame
 wordList = loadWords()
-playHand({'n': 1, 'e': 1, 't': 1, 'a': 1, 'r': 1}, wordList, 5)
+
+# Test 1
+playGame(wordList)
